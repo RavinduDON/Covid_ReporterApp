@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_localCases"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Local Cases" />
+        <item
+            android:id="@+id/nav_local"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="Local Cases Hospitals" />
+        <item
+            android:id="@+id/nav_global"
+            android:icon="@drawable/ic_language_black_24dp"
+            android:title="Global Cases" />
+        <item
+            android:id="@+id/nav_emg"
+            android:icon="@drawable/ic_local_phone_black_24dp"
+            android:title="Emergency" />
+    </group>
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Sahre" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
